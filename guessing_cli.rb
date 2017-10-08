@@ -9,7 +9,7 @@ def run_guessing_game
     if user_guess == comp_guess
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{number}."
+      puts "The computer guessed #{comp_guess}."
     end
 
     puts "Guess a number between 1 and 6."
